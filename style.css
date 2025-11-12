@@ -12,7 +12,7 @@ header{
      color:rgb(174, 192, 7);
 }
 
-section{
+.chamada{
      background:rgb(165, 125, 125)
      padding-bottom: 80px;
      padding-top: 88px;
@@ -22,4 +22,19 @@ section{
 }    
 chamada-texto{
      margin-right:5%;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+.categoria-videos{
+     display: flex;
+     overflow-x: auto;
+     gap: 10px
+}
+.categoria{
+     padding-left: 20px;
+     padding-right: 20px;
 }
